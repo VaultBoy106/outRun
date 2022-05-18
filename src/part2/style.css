@@ -1,0 +1,57 @@
+@keyframes movebarrel {
+    0% { 
+         top: 350px; 
+         
+         background-size: 20px;
+    }
+/*     25% { 
+          top: 100px;
+
+          background-size: 40px;
+
+    }
+    
+    50% {
+      top: 200px;
+      
+      
+      background-size: 60px;
+
+    } */
+    
+    /* 75% {
+      
+      top:  300px;
+      
+      background-size: 80px;
+
+    } */
+    
+    99% {
+      
+        top:  850px;
+         
+      }
+    100% {
+      
+     
+      visibility: hidden; 
+    }
+  }
+  
+  .box{
+    position: fixed;
+    left: 660px;
+    top: 0;
+    height: 128px;
+    width: 128px;
+    background-size: 200px;
+    background-repeat: no-repeat;
+    background-image:url(../assets/barrel.png); 
+    animation-name: movebarrel;
+    animation-duration: 20s;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-iteration-count: infinite;
+    /*animation-timing-function: linear; */
+  }
